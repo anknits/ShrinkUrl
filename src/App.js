@@ -8,7 +8,7 @@ import { LoadingSpinner } from "./components/LoadingSpinner";
 import axios from "axios";
 import "./App.css";
 
-const apiUrl = process.env.apiUrl || "http://localhost:5000/api/shorten";
+const apiUrl = process.env.apiUrl || "https://urlshortener--api.herokuapp.com/api/shorten";
 
 export default class App extends React.Component {
   state = {
